@@ -21,7 +21,7 @@ import model.sql.user.Administrator;
 public class AppData {
 
 	// local
-	public static final String SPRING_APP_URL = "http://localhost:8080/Hotel-booking-and-reservations-system-admin/";
+	//public static final String SPRING_APP_URL = "http://localhost:8080/Hotel-booking-and-reservations-system-admin/";
 
 	// for using mongodb with Spring instead of using Hibernate + SQL 
 	//local
@@ -31,7 +31,7 @@ public class AppData {
 	public static final String MONGGO_URL = "mongodb://" + AppData.DATABASE_HOST + ":" + AppData.DATABASE_PORT;
 
 	// online
-	//public static final String SPRING_APP_URL = "https://admin-hotel-booking.herokuapp.com/";
+	public static final String SPRING_APP_URL = "https://admin-hotel-booking.herokuapp.com/";
 	
 	// online v1
 	//public static final String SPRING_APP_URL = "https://admin-hotel-booking-v1.herokuapp.com/";
